@@ -2,6 +2,8 @@
 
 Copyright (c) 2024 [Antmicro](https://www.antmicro.com)
 
+![](img/pmod-i3c-driver.png)
+
 ## Overview
 
 This project contains open hardware design files for a simple expansion PCB with two push-pull digital output drivers composed of discrete MOSFETs.
