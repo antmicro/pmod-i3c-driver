@@ -22,6 +22,10 @@ The design files were prepared in KiCad 7.x.
 ## Project structure
 
 The main directory contains KiCad PCB project files, a LICENSE, and a README.
+The remaining files are stored in the following directories: 
+
+* `img` - contains graphics for this README 
+* `doc` - contains board schematic in PDF format
 
 ## Licensing
 
