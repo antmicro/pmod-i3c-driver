@@ -9767,10 +9767,8 @@
 		(uuid "f3369f76-11cf-435d-b962-fb5beb15a50c")
 	)
 	(text_box " IN | EN | UP  | DOWN | OUTPUT\n X  | H  | H   | L    | Z\n X  | H  | L   | L    | PULL-UP 2K\n H  | L  | L   | L    | OPEN-DRAIN LOW\n H  | L  | H   | L    | PUSH-PULL LOW\n L  | L  | H   | L    | PUSH-PULL HIGH"
-		(exclude_from_sim no)
 		(at 327.66 27.94 0)
 		(size 46.99 13.97)
-		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -9788,10 +9786,8 @@
 		(uuid "15b9d8b1-df13-46cb-bc81-b9dc60fe4efe")
 	)
 	(text_box " PUSH | PULL | UP | DOWN | OUTPUT\n H    | L    | H  | L    | Z\n H    | L    | L  | L    | PULL-UP 2K\n H    | H    | L  | L    | OPEN-DRAIN LOW\n H    | H    | H  | L    | PUSH-PULL LOW\n L    | L    | H  | L    | PUSH-PULL HIGH"
-		(exclude_from_sim no)
 		(at 327.66 54.61 0)
 		(size 46.99 13.97)
-		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
 			(type default)
@@ -16050,7 +16046,7 @@
 		(at 255.27 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -16168,14 +16164,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 255.27 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -17231,7 +17219,7 @@
 		(at 179.07 254 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "17b1a22d-4a93-4a2a-9041-50681c210ee1")
@@ -17357,14 +17345,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 179.07 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -20522,7 +20502,7 @@
 		(at 134.62 254 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "477fffb8-89e0-4a20-99bc-cd9a3edbe7c9")
@@ -20648,14 +20628,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 134.62 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -21280,7 +21252,7 @@
 		(at 54.61 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -23043,7 +23015,7 @@
 		(at 133.35 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "71bd58b3-7779-4209-98d2-ddca1f529e39")
@@ -23169,14 +23141,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 133.35 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -24539,7 +24503,7 @@
 		(at 248.92 257.81 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -24657,14 +24621,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 248.92 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -24835,7 +24791,7 @@
 		(at 33.02 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -29292,7 +29248,7 @@
 		(at 180.34 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "d3e26a79-2689-4dfc-9c77-fd8160a4a9f6")
@@ -29418,14 +29374,6 @@
 				)
 				(justify left bottom)
 				(hide yes)
-			)
-		)
-		(property "DNP" ""
-			(at 180.34 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

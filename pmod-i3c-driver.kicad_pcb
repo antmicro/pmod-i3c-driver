@@ -274,18 +274,6 @@
 				)
 			)
 		)
-		(property "DNP" ""
-			(at 281.435 -63.648 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "90399b31-68b7-4574-b2a4-f42cb76190dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 281.435 -63.648 0)
 			(layer "F.Fab")
@@ -883,18 +871,6 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 266.783 176.587 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f05eb9d-2540-4c2a-a8b6-996fdc2d0380")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/71096352-eabd-44a2-9984-cfbd6e824e3e")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -981,18 +957,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "632d571b-a42e-44c3-a2cd-bd2d23924fcf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DNP" ""
-			(at 275.055 -62.828 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22a54b62-a3f7-4c9b-a34a-b6b97bb6a60e")
 			(effects
 				(font
 					(size 1 1)
@@ -2011,18 +1975,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "43bce543-4e96-4bc6-bd0a-7b8605003adc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 366.783 176.587 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b5aee024-e773-4627-861b-fdc557e538a2")
 			(effects
 				(font
 					(size 1 1)
@@ -13758,7 +13710,7 @@
 		)
 		(path "/f3fa7ec9-e205-4022-9db6-145426a5e1b6")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 9.607 1.8)
 			(end 9.607 1.499)
@@ -16188,18 +16140,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "06bca660-5569-4158-8b19-8b7982817cf4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 328.113 171.127 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1b73f778-b738-4948-bb85-80f3f83e6218")
 			(effects
 				(font
 					(size 1 1)
@@ -23255,7 +23195,7 @@
 		(embedded_fonts no)
 		(model "${ANT3DMDL}/C_0402_1005Metric.step"
 			(offset
-				(xyz -0 -0 0.2)
+				(xyz 0 0 0.2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -31451,18 +31391,6 @@
 				)
 			)
 		)
-		(property "DNP" ""
-			(at 275.605 -57.178 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3f68e0d3-ecf7-4edc-81df-f3590e0efc88")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 275.605 -57.178 0)
 			(layer "F.Fab")
@@ -31523,21 +31451,9 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 275.605 -57.178 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e0751e7d-825a-4a1f-9510-ded0cac3dc74")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/06bebbc4-7e54-45b8-84bb-6d8f35139898")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_rect
 			(start -0.925 -0.47)
 			(end 0.925 0.47)
@@ -31796,18 +31712,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9e6545aa-94d0-4074-b4ea-1da84347ccb1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 323.033 171.127 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3ba066e1-6130-4a8f-8b3c-bba6ed507dc7")
 			(effects
 				(font
 					(size 1 1)
@@ -39156,7 +39060,7 @@
 		(embedded_fonts no)
 		(model "${ANT3DMDL}/C_0402_1005Metric.step"
 			(offset
-				(xyz -0 -0 0.2)
+				(xyz 0 0 0.2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -46662,18 +46566,6 @@
 				)
 			)
 		)
-		(property "DNP" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09bcede9-7356-42f6-8ed7-c4324fe39745")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -46734,21 +46626,9 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75d740eb-cdce-4f24-8181-b85b4ad761bc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/71bd58b3-7779-4209-98d2-ddca1f529e39")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_rect
 			(start -0.925 -0.47)
 			(end 0.925 0.47)
@@ -47751,21 +47631,9 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "79638676-b590-4ac7-97d4-d606c53a669d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/8960952b-9f95-430b-b264-58ce24aa59aa")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.15 -0.15)
 			(end -1.15 0.15)
@@ -55705,7 +55573,7 @@
 		(embedded_fonts no)
 		(model "${ANT3DMDL}/C_0402_1005Metric.step"
 			(offset
-				(xyz -0 -0 0.2)
+				(xyz 0 0 0.2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -68356,18 +68224,6 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 317.953 171.127 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9469e883-16c7-47bd-b0c8-3d3f5ead4f2a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/cf1cd2c5-8372-4ead-bbc9-9779cdbf3753")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -71940,7 +71796,7 @@
 		(embedded_fonts no)
 		(model "${ANT3DMDL}/SOT-963.step"
 			(offset
-				(xyz -0 -0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -72009,18 +71865,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "68d4a965-29a5-4e21-ac18-d40e43849e64")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DNP" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f684bfef-44d7-4b8a-a084-67c394807768")
 			(effects
 				(font
 					(size 1 1)
@@ -84861,18 +84705,6 @@
 				)
 			)
 		)
-		(property "DNP" ""
-			(at 264.605 -73.278 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9e9029a6-46f4-45d9-8daf-f9600ab6addf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 264.605 -73.278 0)
 			(layer "F.Fab")
@@ -85159,18 +84991,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6855bb41-6ddc-458b-89d8-da3258e43ea5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DNP" ""
-			(at 76.098 268.985 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3c604e76-041a-4581-866f-86ea8f97e5b6")
 			(effects
 				(font
 					(size 1 1)
@@ -98125,7 +97945,7 @@
 		(embedded_fonts no)
 		(model "${ANT3DMDL}/C_0402_1005Metric.step"
 			(offset
-				(xyz -0 -0 0.2)
+				(xyz 0 0 0.2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -98229,18 +98049,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "078f8791-418f-4732-b973-46224e1cb7f5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 287.473 171.127 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ed19cac2-a49a-4e15-9143-9259affcb11e")
 			(effects
 				(font
 					(size 1 1)
@@ -98367,18 +98175,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "27750d4c-cb4d-4df0-bf91-2df0acf383d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 282.393 171.127 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0b403fb9-ff36-4ce8-a3a5-9ff72be67d0e")
 			(effects
 				(font
 					(size 1 1)
@@ -105434,7 +105230,7 @@
 		(embedded_fonts no)
 		(model "${ANT3DMDL}/C_0402_1005Metric.step"
 			(offset
-				(xyz -0 -0 0.2)
+				(xyz 0 0 0.2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -105522,18 +105318,6 @@
 				)
 			)
 		)
-		(property "DNP" ""
-			(at 354.083 195.287 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "25ed8f9b-3376-4e22-8170-c32bd1012e05")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 354.083 195.287 0)
 			(layer "F.Fab")
@@ -105594,21 +105378,9 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 354.083 195.287 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "47a49472-ddec-440d-8d65-d3d290901eb2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/17b1a22d-4a93-4a2a-9041-50681c210ee1")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_rect
 			(start -0.925 -0.47)
 			(end 0.925 0.47)
@@ -111840,18 +111612,6 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 266.783 233.587 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7704f225-e3ef-493c-945d-87683a066864")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/3e921964-d712-40b1-9e55-5b5cfa377f25")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -113568,7 +113328,7 @@
 		(embedded_fonts no)
 		(model "${ANT3DMDL}/SOT-963.step"
 			(offset
-				(xyz -0 -0 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -120459,18 +120219,6 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 277.313 171.127 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3b14d497-4c49-43aa-a054-71b83be32607")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/d530f361-e61e-4173-b9ff-79b6c6acb2fc")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -121561,7 +121309,7 @@
 		(embedded_fonts no)
 		(model "${ANT3DMDL}/sot23-5.step"
 			(offset
-				(xyz 0.0025 -0.0000000000000001 0.5)
+				(xyz 0.0025 -0 0.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -121965,18 +121713,6 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 307.793 171.127 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ffa1286-b0a6-4f44-b2ef-30f84f37b30e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/c0adb9ed-327f-4e11-804e-199451b5d8ca")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -122080,18 +121816,6 @@
 				)
 			)
 		)
-		(property "DNP" ""
-			(at 354.083 216.187 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "39cd05eb-6ff7-4fda-ad48-bc38c97571ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 354.083 216.187 0)
 			(layer "F.Fab")
@@ -122152,21 +121876,9 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 354.083 216.187 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf3e511e-bede-4866-9b12-643c9b6e6fb8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/d3e26a79-2689-4dfc-9c77-fd8160a4a9f6")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_rect
 			(start -0.925 -0.47)
 			(end 0.925 0.47)
@@ -128299,18 +128011,6 @@
 				)
 			)
 		)
-		(property "DNP" ""
-			(at 354.083 214.187 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a8ec6f3-51b9-4b32-b059-dc2ae979ffc3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 354.083 214.187 0)
 			(layer "F.Fab")
@@ -132318,18 +132018,6 @@
 				)
 			)
 		)
-		(property "DNP" ""
-			(at 60.848 277.035 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b760e9a-25c1-4c34-a438-8043f5a13cd9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 60.848 277.035 0)
 			(layer "F.Fab")
@@ -132623,18 +132311,6 @@
 				)
 			)
 		)
-		(property "DNP" ""
-			(at 276.985 -83.498 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a11ebbe9-aa13-4dc6-8a08-462d757f4dc0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 276.985 -83.498 0)
 			(layer "F.Fab")
@@ -132921,18 +132597,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0b171493-82b3-4cd6-b779-86ca5cced36f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DNP" ""
-			(at 287.435 -73.048 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "10c9ab4f-1cbf-45e9-8357-9826cc4b482b")
 			(effects
 				(font
 					(size 1 1)
@@ -133267,21 +132931,9 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 338.283 229.387 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c98e3cea-e531-40a3-a697-be797912a719")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/6815cf02-4028-4b46-b0fe-d22757067fcf")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -0.277 -0.551)
 			(end -0.277 -0.75)
@@ -135847,18 +135499,6 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 312.873 171.127 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6f75022a-c154-4cf7-bab7-47f92cde6e85")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/37931624-bd4b-40cb-9af9-e6be7fe1fb98")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -135962,18 +135602,6 @@
 				)
 			)
 		)
-		(property "DNP" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6be30908-b7a8-408a-b5b5-1f474339abab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -136034,21 +135662,9 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d0c74e00-0642-46d2-bc09-e0d2d269816b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/477fffb8-89e0-4a20-99bc-cd9a3edbe7c9")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_rect
 			(start -0.925 -0.47)
 			(end 0.925 0.47)
@@ -136314,18 +135930,6 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 297.633 171.127 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5f385275-0fa3-458e-a0c5-45d53e38ec1b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/7bd65051-00d7-4fb9-b17c-dc804f6e939c")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -136421,18 +136025,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "80a9a88a-c115-4333-b86c-4ae7c932e5e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 366.783 233.587 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "246f1972-1719-45fa-8be9-a402d4747d6b")
 			(effects
 				(font
 					(size 1 1)
@@ -138976,18 +138568,6 @@
 				)
 			)
 		)
-		(property "DNP" ""
-			(at 71.298 266.585 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5317f60d-af5d-4d49-b963-fe81876e50b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 71.298 266.585 0)
 			(layer "F.Fab")
@@ -139274,18 +138854,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9d89e295-bdfe-4f09-81ec-69dfcc811f84")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DNP" ""
-			(at 65.648 279.435 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "914e1a47-a3a0-4f97-8757-190ede718da6")
 			(effects
 				(font
 					(size 1 1)
@@ -139598,18 +139166,6 @@
 				)
 			)
 		)
-		(property "DNP" ""
-			(at 270.985 -74.098 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f8d29b22-1096-4899-9aa7-ee638860c1a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 270.985 -74.098 0)
 			(layer "F.Fab")
@@ -139903,18 +139459,6 @@
 				)
 			)
 		)
-		(property "DNP" ""
-			(at 67.618 267.165 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "71ad8a9f-2752-45d4-9a78-5579114f1d04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "License" "Apache-2.0"
 			(at 67.618 267.165 0)
 			(layer "F.Fab")
@@ -139975,21 +139519,9 @@
 				)
 			)
 		)
-		(property "dnp" ""
-			(at 67.618 267.165 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2217d3d4-66d9-4825-8959-0d4fa07f1dd0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/86b5e2c0-596d-4c06-b609-18a95e6b066b")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_rect
 			(start -0.925 -0.47)
 			(end 0.925 0.47)
@@ -140213,18 +139745,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e6b52297-bf0d-45c5-bf07-e73b7a033edf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DNP" ""
-			(at 354.083 193.287 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "182d6493-459d-441b-b7f3-b5ca3379799b")
 			(effects
 				(font
 					(size 1 1)
@@ -142984,18 +142504,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "22cb7618-7fc9-4c54-a572-7da84e84ea8d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "exclude_from_bom" ""
-			(at 302.733 171.127 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "36f71645-be46-4600-bc11-c90162afe30b")
 			(effects
 				(font
 					(size 1 1)
@@ -150063,7 +149571,7 @@
 		(embedded_fonts no)
 		(model "${ANT3DMDL}/C_0402_1005Metric.step"
 			(offset
-				(xyz -0 -0 0.2)
+				(xyz 0 0 0.2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -155425,18 +154933,6 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
-			(at 292.553 171.127 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c1e7d8f9-1a57-4bf8-bd42-76e91ea3435b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/b494172f-1133-4e93-9399-ba9a2fbc18a9")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
@@ -155566,22 +155062,9 @@
 				(justify mirror)
 			)
 		)
-		(property "dnp" ""
-			(at 293.063 -95.72 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "47f62a44-0185-4f61-a462-7243b71fa261")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(path "/54836c4c-8e9c-4d20-bbe8-f4c41d74e6c9")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 14.223 1.524)
 			(end -1.526 1.524)
