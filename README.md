@@ -10,7 +10,7 @@ This project contains open hardware design files for a simple expansion PCB with
 This allows to use the board with FPGA-driven systems to implement I3C output stage driver which can act as open drain or push-pull. 
 The driver topology is switchable via digital control signals from FPGA-side.
 A separate set of control signals allows to activate pull-up or pull-down resistors connected to the output signals.
-The design files were prepared in KiCad 7.x.
+The design files were prepared in KiCad 9.x.
 
 ## Key features
 
