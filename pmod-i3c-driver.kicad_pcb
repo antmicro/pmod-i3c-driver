@@ -13795,7 +13795,7 @@
 		(path "/a3b24c19-f730-4ef3-935b-4f26730ab389")
 		(sheetname "/")
 		(sheetfile "pmod-i3c-driver.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.722 6.434)
 			(end 1.708 6.434)
@@ -155743,7 +155743,7 @@
 		(uuid "134660a0-85c4-42bc-8943-119fcc2faa3d")
 		(at 194.3915 98.6715 90)
 		(property "Reference" "J2"
-			(at 0.268 -5.11 0)
+			(at 12.828 -5.755 0)
 			(layer "B.SilkS")
 			(uuid "c1fc0595-2e72-4a81-a44c-5013382051d4")
 			(effects
@@ -158267,7 +158267,7 @@
 		(uuid "ec6cc315-8015-4e1c-aba8-7e947dc0fd14")
 		(at 194.3915 118.9915 90)
 		(property "Reference" "J1"
-			(at -0.572 -4.235 0)
+			(at -1.002 -5.535 0)
 			(layer "B.SilkS")
 			(uuid "483d0d83-7322-4587-a1d6-550c69ce202e")
 			(effects
@@ -163039,6 +163039,46 @@
 		)
 	)
 	(gr_line
+		(start 189.4165 89.5035)
+		(end 187.2665 89.5035)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "622eabdc-28a4-4574-817c-57090a7fc054")
+	)
+	(gr_line
+		(start 190.1465 84.6235)
+		(end 190.1465 100.1935)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "93d997cf-2eb1-4de6-b450-f8717f1453f9")
+	)
+	(gr_line
+		(start 190.1465 100.1935)
+		(end 187.9965 100.1935)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "9e10c836-f039-49f5-86c5-2604b3f635ef")
+	)
+	(gr_line
+		(start 187.2665 89.5035)
+		(end 187.2665 120.4635)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "b347f8a0-4dfb-47da-9fee-05f1f2c4dba6")
+	)
+	(gr_line
 		(start 129.3915 120.7935)
 		(end 204.3915 120.7935)
 		(stroke
@@ -163440,7 +163480,7 @@
 		)
 	)
 	(gr_text "SHA: ########"
-		(at 130.8815 96.4035 180)
+		(at 140.2265 96.3735 0)
 		(layer "B.SilkS")
 		(uuid "09d528a1-1a56-46e1-9743-b8d79fbca333")
 		(effects
